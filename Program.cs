@@ -15,7 +15,7 @@ namespace Medidas
             entrada = Console.ReadLine();
             metros = Convert.ToDouble(entrada);
             centimetros = metros * 100;
-            quilometros = metros / 100;
+            quilometros = metros / 1000;
 
             Console.Beep();
             Console.WriteLine("----------");
